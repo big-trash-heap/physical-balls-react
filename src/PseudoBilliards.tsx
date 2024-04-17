@@ -200,7 +200,7 @@ export const PseudoBilliards = () => {
             target="_blank"
             href="https://github.com/givename/physical-balls-react"
           >
-            <u>Репозиторий с кодом</u>
+            <u>Github</u>
           </a>
         </h2>
         <h2>
@@ -208,7 +208,7 @@ export const PseudoBilliards = () => {
             target="_blank"
             href="https://www.edopedia.com/blog/make-8-ball-pool-multiplayer-billiards-game-using-javascript/"
           >
-            <u>Основной референс физики</u>
+            <u>Main reference</u>
           </a>
         </h2>
         <h2>
@@ -216,12 +216,12 @@ export const PseudoBilliards = () => {
             target="_blank"
             href="http://tm.spbstu.ru/%D0%9A%D0%9F:_%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0_%D0%B1%D0%B8%D0%BB%D1%8C%D1%8F%D1%80%D0%B4%D0%B0"
           >
-            <u>Очень интересный референс</u>
+            <u>Other</u>
           </a>
         </h2>
         <h2>
           <a target="_blank" href="https://www.youtube.com/watch?v=vF4JmvWLlNE">
-            <u>Тоже очень интересно</u>
+            <u>Other</u>
           </a>
         </h2>
       </Modal>
@@ -246,7 +246,7 @@ export const PseudoBilliards = () => {
           }}
           onClick={() => setGameReactiveKey(Date.now())}
         >
-          Новая игра
+          New
         </button>
         <button
           style={{
@@ -261,7 +261,7 @@ export const PseudoBilliards = () => {
           }}
           onClick={() => setOpenInfoModal(true)}
         >
-          Информация
+          Info
         </button>
       </div>
       <canvas

@@ -19,6 +19,10 @@ export class Vec2 {
   static zero = new Vec2(0, 0);
   static one = new Vec2(1, 1);
 
+  get comps() {
+    return [this.x, this.y] as [number, number];
+  }
+
   length(): number {
     return Math.sqrt(this.x ** 2 + this.y ** 2);
   }
